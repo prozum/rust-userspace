@@ -3,6 +3,7 @@
 ## Core:
 * dash
 * make
+* ninja or samurai
 * coreutils (https://github.com/uutils/coreutils)
 * python (https://github.com/RustPython/RustPython)
 
