@@ -3,6 +3,7 @@
 ## Core:
 * ninja or samurai (https://github.com/prozum/ronin)
 * python (https://github.com/RustPython/RustPython)
+* emacs (https://github.com/remacs/remacs)
 
 # Compat:
 * dash
