@@ -18,7 +18,7 @@
 * sed
 * awk
 
-## Purged
+## Purge
 * perl
 * m4
 * automake
