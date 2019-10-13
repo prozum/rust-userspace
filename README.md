@@ -5,7 +5,7 @@
 * python (https://github.com/RustPython/RustPython)
 * emacs (https://github.com/remacs/remacs)
 
-# Compat:
+## Compat:
 * dash
 * make
 * coreutils (https://github.com/uutils/coreutils)
