@@ -1,11 +1,13 @@
 # rust-userspace
 
 ## Core:
+* ninja or samurai (https://github.com/prozum/ronin)
+* python (https://github.com/RustPython/RustPython)
+
+# Compat:
 * dash
 * make
-* ninja or samurai
 * coreutils (https://github.com/uutils/coreutils)
-* python (https://github.com/RustPython/RustPython)
 
 ## Nice-to-have:
 * patch
