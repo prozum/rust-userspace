@@ -10,6 +10,9 @@
 * make
 * coreutils (https://github.com/uutils/coreutils)
 
+## Advance:
+* binutils
+
 ## Nice-to-have:
 * patch
 * sed
