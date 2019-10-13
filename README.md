@@ -17,3 +17,9 @@
 * patch
 * sed
 * awk
+
+## Purged
+* perl
+* m4
+* automake
+* autoconf
