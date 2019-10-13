@@ -6,8 +6,8 @@
 * emacs (https://github.com/remacs/remacs)
 
 ## Compat:
-* dash
-* make
+* dash (https://github.com/prozum/rash)
+* make (https://github.com/prozum/mare)
 * coreutils (https://github.com/uutils/coreutils)
 
 ## Advance:
