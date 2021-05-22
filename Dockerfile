@@ -12,6 +12,15 @@ RUN cargo install --path=coreutils --root=/prefix/ --debug
 RUN git clone https://github.com/hiking90/rushell
 RUN cargo install --path=rushell --root=/prefix/ --debug
 
+# Deno
+RUN git clone --recurse-submodules https://github.com/denoland/deno
+ENV V8_FROM_SOURCE=1 
+ENV CLANG_BASE_PATH /usr
+RUN apk add --update --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/ gn
+RUN apk add --update clang glib-dev
+RUN cd deno/cli && cargo fetch
+RUN cd deno/cli && cargo build 
+
 FROM scratch
 # shell
 COPY profile /etc/profile
