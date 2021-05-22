@@ -1,1 +1,2 @@
 PATH=/bin
+TERM=xterm
